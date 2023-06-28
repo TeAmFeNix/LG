@@ -48,7 +48,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["المطور", f"مطور"]) & filters.group & ~filters.edited)
 async def gcstart(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/5fdd8da2461c05d893189.jpg",
+        photo=f"https://graph.org/file/34292f15e90c584528174.jpg",
         caption=f"- مطور البوت . \n\n - قناة المطور @{UPDATE}",
         reply_markup=InlineKeyboardMarkup(
             [
